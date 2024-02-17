@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="passgen.css">
+</head>
+<body>
+    <h1>Password Generator</h1>
+    <div class="main">
+        <div class="textbox">
+            <input type="text" id="textBox" disabled>
+        </div>
+        <div class="condition">
+            <label for="">Include upper case</label>
+            <input type="checkbox" name="" id="upperCase">
+            <label for="">Include lower case</label>
+            <input type="checkbox" name="" id="lowerCase">
+            <label for="">Include numbers</label>
+            <input type="checkbox" name="" id="numbers">
+            <label for="">Include special characters</label>
+            <input type="checkbox" name="" id="characters">
+        </div>
+        <button onclick="GenPass()">Generate Password</button>
+    </div>
+    <script src="passgen.js"></script>
+</body>
+</html>
